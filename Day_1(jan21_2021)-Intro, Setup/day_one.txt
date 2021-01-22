@@ -1,0 +1,6 @@
+1. Download  Python 3.9.1  (python.org)
+
+2. Setup on Windows & linux
+
+3. Check pythonr Version [python -v] [python --version]
+

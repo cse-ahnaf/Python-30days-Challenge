@@ -1,0 +1,34 @@
+Day 2 Doing:
+
+1.Adding 47+24 => 71
+2.Substrcat 98-54 => 44
+3.Multiply 78*4 => 312
+4.Divide  72/4 => 18
+5.Exponent  2**3 => 8
+6.Modulus 20%3 => 2
+7. Greater Than   5>3 => True
+8. Less Than   5<7 => True 
+
+Strings:
+
+'This is a string'
+print('This is a string') # Output => This is a string
+print("This is a string") # Output => This is a string
+print("This \n is a string") # Output => This 
+is a string
+
+print("This \n is \n a \n string") # Output => This
+is 
+a 
+string
+
+Variables:
+
+price = 29
+print('The Pen box price is', price, '$') # Output => The Pen box price is 29 $
+print('The Pen box price is $', price) # Output => The Pen box price is $ 29
+
+Singer = 'Doja Cat'
+print('Please, call the', Singer)  # Output => Please, call the Doja Cat
+
+
