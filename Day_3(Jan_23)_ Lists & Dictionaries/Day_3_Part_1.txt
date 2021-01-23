@@ -1,0 +1,46 @@
+Python List:
+
+
+My_lists = [1223, 232, 2323, 2323] #Declear the Lsut
+
+print(My_lists) Output => [1223, 232, 2323, 2323]
+
+#add 1 list items
+
+My_lists.append(74878) 
+
+
+Now output Is
+
+print(My_lists) #Output => [1223, 232, 2323, 2323, 74873]
+
+len(My_lists) #Output => 5
+
+
+#pick one items By Indexing Like array
+
+My_lists = [1223{0}, 232{1}, 2323{2}, 2323{3}, 74873{4}]     //// {Indexing Value}
+
+My_lists[3] #Output => 2323   
+
+My_lists[1] * 5 #Output => 1160 /// 232 * 5 = 1160
+
+____________________________________________________________________________________________
+
+String_1 = "This is just a String"
+
+String_1[Indexing Value] #Output the value
+
+String_1[2]  #Output => i // String_1 = "This    T{0} h{1} i{2} s{3}
+
+Bag_pack_Items = ["Phone_chager", "Books", "Cloths", "Cash"]
+
+#Pick Books
+Bag_pack_Items[1] /// ["Phone_chager"{0}, "Books"{1}, "Cloths"{2}, "Cash"{3}]
+
+
+
+
+
+
+
