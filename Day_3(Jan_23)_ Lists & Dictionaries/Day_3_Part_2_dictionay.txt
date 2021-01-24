@@ -1,0 +1,21 @@
+#Day_3_DictionY _part_2:
+#Dictionary is key value Pair
+
+my_words = {"Name": "Doja Cat", "Full_Name" : "Amala Ratna Zandile Dlamini", "DOB": "October 21, 1995"}
+
+my_words[Name]  // my_words[0]    /// fall back error [keyerror:0]
+
+
+// to see keye
+my_words.keys()
+
+#to make list
+
+list(my_words.keys())
+list(my_words.keys())[0]
+
+#Too add Items
+my_words.append({"Location": "Los Angeles"}) // will not work
+
+#else
+my_words["Location"] = "Los Angeles"
