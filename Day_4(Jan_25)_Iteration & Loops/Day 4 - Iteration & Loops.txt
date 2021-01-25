@@ -1,0 +1,137 @@
+Day 4 - Iteration & Loops:
+
+#dec the list
+my_list = [1,2,3,4,5]
+
+#Print by indexing value
+my_list[1]   //or my_list[4]
+
+
+my_list[1] #output is 2 // [1{0},2{1},3{2},4{3},5{4}]
+my_list[3] #output is 4 // [1{0},2{1},3{2},4{3},5{4}]
+
+
+For Loop 
+
+for my_var in my_list:  # 3 things Must in for Loop  for, in & :
+
+
+for my_var in my_list:
+    print(my_var)
+	
+	Outpuy is 
+1
+2
+3
+4
+5
+
+
+print(my_var)
+output is: 5 //last value of for loop
+
+for i in 10:
+    print(i)
+	
+
+for i in "10":
+    print(i)
+	
+	
+	
+	
+
+
+
+
+for x in range(0,15):
+    print(x)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+user_1 = {'username': 'Doja Cat', 'id': 1}
+user_2 = {'username': 'Dr. Luke', 'id': 2}
+my_users = [user_1, user_2]
+
+>>> for user in my_users:
+...     print(user)
+...
+{'username': 'Doja Cat', 'id': 1}
+{'username': 'Dr. Luke', 'id': 2}
+
+>>> for user in my_users:
+...     print(user['username'])
+...
+Doja Cat
+Dr. Luke
+
+user_2 = {'username': 'Dr. Luke', 'id': 2, 'email': 'Luke2@user.fake'}
+my_users = [user_1, user_2]
+>>> for user in my_users:
+...     print(user['email'])
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyError: 'email'
+
+
+...     if 'email' in user:
+...       print(user['email'])
+...
+Luke2@user.fake
+
+
+>>> for user in my_users:
+...     if 'id' in user:
+...        if user['id'] == my_user_lookup:
+...           selected_user = user
+
+
+>>> select_user = {}
+>>> my_user_lookup = 2
+>>> for user in my_users:
+...   if 'id' in user:
+...     if user['id'] == my_user_lookup:
+...       select_user = user
+...
+>>> print(select_user)
+{'username': 'Dr. Luke', 'id': 2, 'email': 'Luke2@user.fake'}
+>>> for x in range(0, 15):
+...   print(x)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+>>> for x in range(0, 15):
+...     for user in my_users:
+...       if user['id'] == x:
+...         print(user)
+...
+{'username': 'Doja Cat', 'id': 1}
+{'username': 'Dr. Luke', 'id': 2, 'email': 'Luke2@user.fake'}
