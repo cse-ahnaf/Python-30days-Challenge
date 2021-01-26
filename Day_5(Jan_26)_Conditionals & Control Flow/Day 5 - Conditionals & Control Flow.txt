@@ -1,0 +1,38 @@
+Day 5 - Conditionals & Control Flow:
+
+
+>>>> True
+
+>>> if False:
+...     print('This statement gonna be print')
+...
+>>>
+>>>
+>>> if False:
+...     print('Nothing Print')
+... else:
+...     print('This statement gonna be print')
+...
+This statement gonna be print
+
+>>> if not False:
+...     print('Lorem ipsum')
+...
+Lorem ipsum
+>>> True == False
+False
+
+>>> 20>5
+True
+>>> 45>487
+False
+>>> 454<54
+False
+>>> 415458<547878
+True
+>>> 15>10 or 10<15
+True
+>>> not 56>80
+True
+>>> not(41>54)  # - & - is + // negetive & negetive = positive // positive & positive = positive
+True
